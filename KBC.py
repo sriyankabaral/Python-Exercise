@@ -7,7 +7,7 @@ prize=0
 b=[["a.Kathmandu"," b.Pokhara ","c.Chitwan","d.Butwal"],["a.02", "b.HCL", "c.H2O", "d.H02"],["a.3", "b.4", "c.0" ,"d.9"],["a.Stan Lee", "b.William Shakespeare", "c.Roald Dahl", "d.Rabindranath Tagore"],["a.Jupiter", "b.Mars", "c.Saturn", "d.Uranus"]]
 d=["a","c","a","b","a"]                                                                       
 for i in range(len(a)):
- print("Your question is:",a[i])
+ print(i+1,".Your question is:",a[i])
  print(b[i])                                                                                              
  c=input("enter your answer:")
  if(c==d[i]):
@@ -15,5 +15,6 @@ for i in range(len(a)):
   print("Correct answer!!")
  else:
   print("wrong answer")
+  print("Right answer is:",d[i]) 
 print("YOU WON",prize,"rupees")
    
