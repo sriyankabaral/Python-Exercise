@@ -18,3 +18,4 @@ for i in range(len(a)):
   print("Right answer is:",d[i]) 
 print("YOU WON",prize,"rupees")
    
+   
