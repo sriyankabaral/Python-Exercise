@@ -9,7 +9,7 @@ print(t)
 name=input("enter your name:")
 hrs=int(time.strftime('%H'))
 if(hrs>= 4 and hrs<= 12):
- print ("goodmorning ",name)
+ print ("goodmorning",name)
 elif (hrs >=12 and hrs <=16):
  print("goodafternoon",name)
 elif (hrs >=16 and hrs <=20):
