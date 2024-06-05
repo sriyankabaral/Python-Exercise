@@ -14,7 +14,7 @@ if task=="code":
 elif task == "decode":
   print("we will decode the word")
   a=input("enter the word to decode:")
-  if len(a)<3 :
+  if len(a)<3:
      print("the decoded word is:",a[::-1])
   else:
     f=a[3:-3]
