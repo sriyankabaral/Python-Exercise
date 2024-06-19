@@ -1,4 +1,4 @@
-import pandas as pd
+#import pandas as pd
 #import numpy as np
 # data={"Name":["John","Peter","Lisa"],"Age":[25,28,31],"Salary":[30000,4859,20384]}
 # df=pd.DataFrame(data)
@@ -86,8 +86,8 @@ import pandas as pd
 #"names":["john","ben","david","peter"],
 #"houses":["red","blue","green","red"]}
 #df=pd.DataFrame(dict)
-print(df)
-print (df.pivot(index="keys",columns="names",values="houses"))
+# print(df)
+# print (df.pivot(index="keys",columns="names",values="houses"))
 # dict={"keys":["k1","k2","k1","k2"],
 # "names":["john","ben","david","peter"],
 # "houses":["red","blue","green","red"]}
