@@ -83,7 +83,7 @@ import pandas as pd
 #pivoting
  #{
 #dict={"keys":["k1","k2","k1","k2"],
-"names":["john","ben","david","peter"],
+#"names":["john","ben","david","peter"],
 "houses":["red","blue","green","red"]}
 df=pd.DataFrame(dict)
 print(df)
