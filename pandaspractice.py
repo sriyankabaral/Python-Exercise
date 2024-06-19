@@ -82,7 +82,7 @@ import pandas as pd
 # print(df.compare(df2))
 #pivoting
  #{
-dict={"keys":["k1","k2","k1","k2"],
+#dict={"keys":["k1","k2","k1","k2"],
 "names":["john","ben","david","peter"],
 "houses":["red","blue","green","red"]}
 df=pd.DataFrame(dict)
